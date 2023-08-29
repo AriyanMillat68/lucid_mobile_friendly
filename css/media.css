@@ -1,0 +1,149 @@
+/*min width start */
+@media(min-width:1920px){
+    .phone{
+        right: 16%;
+        width: 30%;
+    }
+    .phone .hide_md{
+        width: 100%;
+    }
+}
+@media(min-width:2500px){
+    .phone{
+        right: 16%;
+        width: 26%;
+    }
+    .phone .hide_md{
+        width: 100%;
+    }
+}
+/*min width end */
+
+/*mix width start */
+@media(max-width:1200px){
+    .content {
+        padding: 70px 0;
+    }
+}
+@media(max-width:767px){
+    .hide_dsk{
+        display: block;
+    }
+    .hide_md{
+        display: none;
+    }
+    .phone {
+        position: static;
+        width: 50%;
+        margin: 50px auto 30px auto;
+    }
+    .content {
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 0;
+    }
+    .height {
+        flex-direction: column-reverse;
+    }
+    .navbar-nav{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .nav-link{
+        display: inline;
+    }
+    .feature_item {
+        margin-bottom: 40px;
+    }
+    .phone2{
+        width: 70%;
+        margin: 0 auto 30px;
+    }
+    .slide_item p {
+        text-align: center;
+    }
+    .client{
+        justify-content: center;
+    }
+    .client_details p{
+        text-align: start;
+    }
+    .ad_section h2{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .align{
+        text-align: center !important;
+    }
+    .pricing_table {
+        margin-bottom: 30px;
+    }
+    .contact_section{
+        padding-bottom: 550px;
+    }
+    .form_box{
+        width: 80%;
+        padding: 50px 30px;
+        margin-bottom: 100px;
+    }
+    .map_section iframe {
+        height: 300px;
+    }
+    .future{
+        padding: 10px 30px;
+        margin-left: 15px !important;
+    }
+    .padding{
+        width: 50%;
+    }
+}
+@media(max-width:575px){
+    .phone2{
+        width: 50%;
+    }
+}
+@media(max-width:425px){
+    .btn-download{
+        /* margin: 0 0 15px 0; */
+    }
+    .view{
+        margin: 20px 40px 0 40px !important;
+        padding: 10px 33px;
+    }
+    .content h1 {
+        font-size: 35px;
+    }
+}
+@media(max-width:375px){
+    .content h1 {
+        font-size: 30px;
+    }
+}
+@media(max-width:320px){
+    .content h1 {
+        font-size: 28px;
+    }
+    .btn-download {
+        margin: 0 0 15px 0;
+    }
+    .view{
+        margin: 15px;
+    }
+    .padding{
+        width: 0;
+    }
+}
+/*mix width end */
+
+/*min width max width start */
+@media(min-width:768px) and (max-width:1200px){
+    .phone{
+        width: 34%;
+    }
+}
+@media(min-width:1201px) and (max-width:1440px){
+    .phone{
+        width: 30%;
+    }
+}
+/*min width max width start */
